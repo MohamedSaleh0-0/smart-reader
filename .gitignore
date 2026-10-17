@@ -3,4 +3,5 @@ coverage/
 dist/
 .DS_Store
 Thumbs.db
+/release/SmartReader-Portable.html
 
