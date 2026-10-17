@@ -1,0 +1,11 @@
+{
+  "name": "smart-reader",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix v2 run dev",
+    "check": "node scripts/check.mjs",
+    "test": "node --test"
+  }
+}
+

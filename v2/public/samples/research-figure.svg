@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">مخطط مسار الملاحظة</title>
+  <desc id="desc">مخطط يربط السؤال بالمصدر ثم بالملاحظة</desc>
+  <rect width="800" height="420" fill="#f4efe3"/>
+  <rect x="70" y="150" width="180" height="100" rx="16" fill="#d7e6dc" stroke="#4f7f64" stroke-width="5"/>
+  <rect x="310" y="150" width="180" height="100" rx="16" fill="#e9ddc7" stroke="#b59f7c" stroke-width="5"/>
+  <rect x="550" y="150" width="180" height="100" rx="16" fill="#d7e0ee" stroke="#496b9b" stroke-width="5"/>
+  <path d="M250 200h60M490 200h60" stroke="#333" stroke-width="8"/>
+  <path d="M295 185l20 15-20 15M535 185l20 15-20 15" fill="none" stroke="#333" stroke-width="8"/>
+  <text x="160" y="210" text-anchor="middle" font-family="Arial" font-size="30" fill="#222">Question</text>
+  <text x="400" y="210" text-anchor="middle" font-family="Arial" font-size="30" fill="#222">Source</text>
+  <text x="640" y="210" text-anchor="middle" font-family="Arial" font-size="30" fill="#222">Note</text>
+</svg>

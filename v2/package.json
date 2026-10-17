@@ -1,0 +1,36 @@
+{
+  "name": "smart-reader-v2",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "build:portable": "node scripts/build-portable.mjs",
+    "companion": "node companion/smart-reader-companion.mjs",
+    "companion:serve": "node companion/smart-reader-companion.mjs --serve",
+    "companion:token": "node companion/smart-reader-companion.mjs --show-token",
+    "test": "node --test tests/*.test.mjs",
+    "test:unit": "vitest run",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "rehype-sanitize": "6.0.0",
+    "rehype-stringify": "10.0.1",
+    "remark-gfm": "4.0.1",
+    "remark-parse": "11.0.0",
+    "remark-rehype": "11.1.2",
+    "unified": "11.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.3"
+  }
+}
